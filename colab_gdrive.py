@@ -1,3 +1,6 @@
+# mount google drive
+# This mounts your whole drive, and creates a symlink to a specific path
+# be careful!
 def mount_google_drive(
     mountPoint = '/gdrive' ,
     drivePath = 'colab/storage', 
