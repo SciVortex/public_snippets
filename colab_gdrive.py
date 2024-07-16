@@ -1,4 +1,3 @@
-# Mount Google Drive in Colab
 def mount_google_drive(
     mountPoint = '/gdrive' ,
     drivePath = 'colab/storage', 
@@ -6,7 +5,7 @@ def mount_google_drive(
   ):
   import os
 
-  storage_path = f"${mountPoint}/My Drive/{drivePath}"
+  storage_path = f"{mountPoint}/My Drive/{drivePath}"
 
   from google.colab import drive
   drive.mount(mountPoint)
